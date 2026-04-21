@@ -1,0 +1,19 @@
+{
+	"name": "RestService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://delighted-clique-hence.ngrok-free.dev",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "abhi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlYWE0ZDVjOS05ZDE5LTQxYjgtYmFlZi02NWRjNGVlY2UzYjkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
